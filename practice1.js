@@ -19,6 +19,9 @@ console.log("Hello World in double quote");
 
 let message = "Hello to javascript" ;
 console.log(message);
+//reassigning a value
+message = "Javascript is fun";
+console.log(message);
 
 var num = 10;
 console.log(num);
@@ -34,3 +37,12 @@ console.log(coffee);
 
 let negativity = null;
 console.log(negativity);
+
+//creating a variable that can not change
+// const -> short for constant, a value that does not change
+
+const bla = "John";
+// name = "something else "; // this will throw an error, can not re-assign the const
+console.log(bla);
+
+
